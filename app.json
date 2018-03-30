@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "OpenHex",
+    "description": "Simple strategy game inspired by Slay.",
+    "icon": "./openhex/build/openhex-icon.png",
+    "githubUrl": "https://github.com/alcalyn/openhex",
+    "primaryColor": "#218838",
+    "version": "1.0.0",
+    "slug": "openhex",
+    "sdkVersion": "25.0.0",
+    "splash": {
+      "image": "./openhex/build/openhex-icon.png",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "openhex/build/*",
+      "openhex/build/static/*",
+      "openhex/build/static/**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.alcalyn.openhex"
+    },
+    "android": {
+      "package": "com.alcalyn.openhex"
+    }
+  }
+}
